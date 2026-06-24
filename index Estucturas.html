@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadro Comparativo - Algoritmos Criptográficos</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <span class="logo-icon">🔐</span>
+                <span class="logo-text">Σ-VISION</span>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#portada">Inicio</a></li>
+                    <li><a href="#introduccion">Introducción</a></li>
+                    <li><a href="#contenido">Contenido</a></li>
+                    <li><a href="#conclusion">Conclusión</a></li>
+                    <li><a href="#bibliografia">Bibliografía</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+  <div class="contenedor-creativo">
+  <div class="elemento-animado"></div>
+</div>
+    <section id="portada" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">Negocios, Tecnología y Construcción</span>
+                <h1 class="hero-title">MBA<br>Ing. Civil/Software</h1>
+                <p class="hero-subtitle">Construcción, Análisis Estructural, Desarrollo de software, Computer Vision, Machine Learning, Deep Learning, Websites</p>
+                <div class="hero-meta">
+                    <div class="hero-meta-item">
+                        <span class="meta-label">MBA-Ing:</span>
+                        <span class="meta-value">Eric David Rodriguez Flores</span>
+                    </div>
+                    <div class="hero-meta-item">
+                        <span class="meta-label">Fecha:</span>
+                        <span class="meta-value">Junio 2026</span>
+                    </div>
+                </div>
+                <a href="#introduccion" class="btn-primary">Explorar contenido ↓</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="introduccion" class="section introduccion">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Introducción</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="introduccion-grid">
+                <div class="introduccion-text">
+                    <p>
+                        En la era digital actual, donde la información viaja a través de redes globales y 
+                        dispositivos interconectados, la protección de los datos se ha convertido en una 
+                        prioridad fundamental. La <strong>criptografía</strong> emerge como la disciplina 
+                        encargada de salvaguardar la confidencialidad, integridad y autenticidad de la 
+                        información, transformando mensajes legibles en formatos ininteligibles para 
+                        personas no autorizadas.
+                    </p>
+                    <p>
+                        El corazón de la criptografía moderna reside en los <strong>algoritmos criptográficos</strong>, 
+                        complejas funciones matemáticas que permiten cifrar y descifrar datos. Estos 
+                        algoritmos se clasifican en dos grandes familias: los <strong>simétricos</strong>, 
+                        que utilizan una única clave para cifrar y descifrar, y los <strong>asimétricos</strong>, 
+                        que emplean un par de claves (pública y privada) con funciones distintas.
+                    </p>
+                    <p>
+                        La presente actividad tiene como objetivo analizar y comparar los principales 
+                        algoritmos criptográficos, evaluando su velocidad, nivel de seguridad y casos de 
+                        uso típicos. A través de este análisis, se busca comprender cuándo y por qué 
+                        elegir un algoritmo sobre otro, dependiendo de las necesidades específicas de 
+                        cada aplicación, desde el cifrado de archivos hasta las firmas digitales y la 
+                        seguridad en transacciones en línea.
+                    </p>
+                </div>
+                <div class="introduccion-image">
+                    <img src="intro-cripto.jpg" alt="Texto claro vs texto cifrado" loading="lazy">
+                    <div class="image-caption">Figura 1. Representación del proceso de cifrado.</div>
+                </div>
+            </div>
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/wDpqrasDmxM" title="Encriptación (Cifrado) Simétrica y Asimétrica - Explicado Facilitamente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="video-caption">Video 1. Introducción a la criptografía y su importancia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contenido" class="section contenido">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Cuadro Comparativo</h2>
+                <div class="section-line"></div>
+            </div>
+            <p class="section-description">
+                A continuación se presenta un análisis detallado de los principales algoritmos 
+                criptográficos, comparando su velocidad, nivel de seguridad y aplicaciones más 
+                comunes. La tabla está organizada en dos bloques: <strong>simétricos</strong> y 
+                <strong>asimétricos</strong>.
+            </p>
+
+            <div class="contenido-image-wrapper">
+                <img src="simetrico-asimetrico.jpg" alt="Comparativa simétrica vs asimétrica" loading="lazy" class="contenido-image">
+                <p class="image-caption">Figura 2. Comparativa visual entre criptografía simétrica y asimétrica.</p>
+            </div>
+
+            <div class="table-responsive">
+                <table class="comparative-table">
+                    <thead>
+                        <tr>
+                            <th>Algoritmo</th>
+                            <th>Tipo</th>
+                            <th>Velocidad</th>
+                            <th>Seguridad</th>
+                            <th>Casos de Uso</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-divider">
+                            <td colspan="5"><strong>🔑 ALGORITMOS SIMÉTRICOS</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>DES</strong><br><span class="algo-sub">Data Encryption Standard</span></td>
+                            <td><span class="tag tag-simetrico">Simétrico</span></td>
+                            <td>
+                                <span class="speed speed-medium">Media</span>
+                                <span class="speed-detail">56 bits, 16 rondas</span>
+                            </td>
+                            <td>
+                                <span class="security security-low">Baja</span>
+                                <span class="security-detail">Obsoleto, vulnerable a ataques de fuerza bruta</span>
+                            </td>
+                            <td>Legado, sistemas antiguos</td>
+                        </tr>
+                        <tr>
+                            <td><strong>3DES</strong><br><span class="algo-sub">Triple DES</span></td>
+                            <td><span class="tag tag-simetrico">Simétrico</span></td>
+                            <td>
+                                <span class="speed speed-low">Baja</span>
+                                <span class="speed-detail">168 bits, 48 rondas</span>
+                            </td>
+                            <td>
+                                <span class="security security-medium">Media</span>
+                                <span class="security-detail">Seguro pero lento, reemplazado por AES</span>
+                            </td>
+                            <td>ATM, sistemas financieros heredados</td>
+                        </tr>
+                        <tr>
+                            <td><strong>AES</strong><br><span class="algo-sub">Advanced Encryption Standard</span></td>
+                            <td><span class="tag tag-simetrico">Simétrico</span></td>
+                            <td>
+                                <span class="speed speed-high">Alta</span>
+                                <span class="speed-detail">128/192/256 bits, 10/12/14 rondas</span>
+                            </td>
+                            <td>
+                                <span class="security security-high">Alta</span>
+                                <span class="security-detail">Estándar mundial, resistente a ataques</span>
+                            </td>
+                            <td>Cifrado de archivos, WiFi (WPA2), SSL/TLS</td>
+                        </tr>
+                        <tr>
+                            <td><strong>IDEA</strong><br><span class="algo-sub">International Data Encryption Algorithm</span></td>
+                            <td><span class="tag tag-simetrico">Simétrico</span></td>
+                            <td>
+                                <span class="speed speed-medium">Media</span>
+                                <span class="speed-detail">128 bits, 8 rondas</span>
+                            </td>
+                            <td>
+                                <span class="security security-high">Alta</span>
+                                <span class="security-detail">Robusto, patentado</span>
+                            </td>
+                            <td>PGP, cifrado de correo electrónico</td>
+                        </tr>
+                        <tr>
+                            <td><strong>RC4</strong><br><span class="algo-sub">Rivest Cipher 4</span></td>
+                            <td><span class="tag tag-simetrico">Simétrico</span></td>
+                            <td>
+                                <span class="speed speed-high">Alta</span>
+                                <span class="speed-detail">Cifrado de flujo, variable</span>
+                            </td>
+                            <td>
+                                <span class="security security-low">Baja</span>
+                                <span class="security-detail">Vulnerable, no recomendado</span>
+                            </td>
+                            <td>WEP, SSL/TLS antiguo</td>
+                        </tr>
+
+                        <tr class="table-divider">
+                            <td colspan="5"><strong>🔓 ALGORITMOS ASIMÉTRICOS</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>RSA</strong><br><span class="algo-sub">Rivest-Shamir-Adleman</span></td>
+                            <td><span class="tag tag-asimetrico">Asimétrico</span></td>
+                            <td>
+                                <span class="speed speed-low">Baja</span>
+                                <span class="speed-detail">1024-4096 bits</span>
+                            </td>
+                            <td>
+                                <span class="security security-high">Alta</span>
+                                <span class="security-detail">Basado en factorización de números primos</span>
+                            </td>
+                            <td>Firmas digitales, SSL/TLS, SSH</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Diffie-Hellman</strong></td>
+                            <td><span class="tag tag-asimetrico">Asimétrico</span></td>
+                            <td>
+                                <span class="speed speed-low">Baja</span>
+                                <span class="speed-detail">Intercambio de claves</span>
+                            </td>
+                            <td>
+                                <span class="security security-high">Alta</span>
+                                <span class="security-detail">Basado en logaritmos discretos</span>
+                            </td>
+                            <td>Intercambio seguro de claves, VPN</td>
+                        </tr>
+                        <tr>
+                            <td><strong>DSA</strong><br><span class="algo-sub">Digital Signature Algorithm</span></td>
+                            <td><span class="tag tag-asimetrico">Asimétrico</span></td>
+                            <td>
+                                <span class="speed speed-low">Baja</span>
+                                <span class="speed-detail">Firmas digitales</span>
+                            </td>
+                            <td>
+                                <span class="security security-high">Alta</span>
+                                <span class="security-detail">Estándar NIST para firmas</span>
+                            </td>
+                            <td>Firmas digitales, autenticación</td>
+                        </tr>
+                        <tr>
+                            <td><strong>ElGamal</strong></td>
+                            <td><span class="tag tag-asimetrico">Asimétrico</span></td>
+                            <td>
+                                <span class="speed speed-low">Baja</span>
+                                <span class="speed-detail">Cifrado y firmas</span>
+                            </td>
+                            <td>
+                                <span class="security security-high">Alta</span>
+                                <span class="security-detail">Basado en logaritmos discretos</span>
+                            </td>
+                            <td>Cifrado de mensajes, firmas digitales</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-legend">
+                <h4>Leyenda de iconos</h4>
+                <div class="legend-grid">
+                    <div class="legend-item">
+                        <span class="speed speed-high"></span> Velocidad Alta
+                    </div>
+                    <div class="legend-item">
+                        <span class="speed speed-medium"></span> Velocidad Media
+                    </div>
+                    <div class="legend-item">
+                        <span class="speed speed-low"></span> Velocidad Baja
+                    </div>
+                    <div class="legend-item">
+                        <span class="security security-high"></span> Seguridad Alta
+                    </div>
+                    <div class="legend-item">
+                        <span class="security security-medium"></span> Seguridad Media
+                    </div>
+                    <div class="legend-item">
+                        <span class="security security-low"></span> Seguridad Baja
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-wrapper">
+                <div class="video-container">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/wDpqrasDmxM" title="Encriptación (Cifrado) Simétrica y Asimétrica - Explicado Fácilmente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p class="video-caption">Video 2. Explicación de la criptografía simétrica y asimétrica.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="conclusion" class="section conclusion">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Conclusión</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="conclusion-grid">
+                <div class="conclusion-image">
+                    <img src="futuro-cripto.jpg" alt="Futuro de la criptografía" loading="lazy">
+                    <p class="image-caption">Figura 3. La criptografía como pilar de la seguridad digital.</p>
+                </div>
+                <div class="conclusion-text">
+                    <p>
+                        El análisis realizado a través del cuadro comparativo permite visualizar de manera 
+                        clara las diferencias fundamentales entre los algoritmos criptográficos simétricos 
+                        y asimétricos. Mientras que los primeros destacan por su <strong>rapidez y eficiencia</strong> 
+                        en el cifrado de grandes volúmenes de datos, los segundos ofrecen una <strong>mayor 
+                        seguridad</strong> en la gestión de claves y autenticación, aunque a costa de un 
+                        rendimiento más lento.
+                    </p>
+                    <p>
+                        La evolución de estos algoritmos demuestra que la seguridad no es un estado estático, 
+                        sino un proceso continuo de adaptación. Algoritmos que fueron considerados seguros 
+                        hace décadas, como DES o RC4, hoy son vulnerables y han sido reemplazados por 
+                        alternativas más robustas como <strong>AES</strong> y <strong>RSA</strong>. Esta 
+                        constante evolución es esencial para enfrentar el creciente poder computacional de 
+                        los atacantes y las nuevas amenazas del ciberespacio.
+                    </p>
+                    <p>
+                        En el contexto actual, la elección del algoritmo adecuado depende del equilibrio 
+                        entre velocidad y seguridad, así como del caso de uso específico. Para aplicaciones 
+                        que requieren cifrado masivo de datos en tiempo real, los algoritmos simétricos 
+                        como AES son la opción óptima. Para transacciones seguras y autenticación digital, 
+                        los asimétricos como RSA y DSA resultan indispensables.
+                    </p>
+                    <p>
+                        En definitiva, la criptografía sigue siendo el pilar fundamental de la seguridad 
+                        informática. Comprender las características de cada algoritmo permite a los 
+                        profesionales de la seguridad tomar decisiones informadas y construir sistemas más 
+                        resilientes ante las amenazas del mundo digital actual y futuro.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bibliografia" class="section bibliografia">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Bibliografía</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="bibliografia-list">
+                <ul>
+                    <li>
+                        <strong>Samaniego, E. A., &amp; Ponce, J. A.</strong> (2021). 
+                        <em>Fundamentos de seguridad informática</em> (Capítulo III: Criptografía). 
+                        Editorial Grupo Compás.
+                    </li>
+                    <li>
+                        <strong>Tanenbaum, A. S.</strong> (2003). 
+                        <em>Redes de computadoras</em> (4.a ed., Capítulo 8: Seguridad en redes). 
+                        Pearson Educación.
+                    </li>
+                    <li>
+                        <strong>Kamen, E., &amp; Heck, B.</strong> (2008). 
+                        <em>Fundamentos de Señales y Sistemas</em> (Capítulo 3: Series y transformada de Fourier). 
+                        Pearson Educación.
+                    </li>
+                    <li>
+                        <strong>NIST</strong> (2001). 
+                        <em>FIPS 197: Advanced Encryption Standard (AES)</em>. 
+                        National Institute of Standards and Technology.
+                    </li>
+                    <li>
+                        <strong>Rivest, R. L., Shamir, A., &amp; Adleman, L.</strong> (1978). 
+                        "A Method for Obtaining Digital Signatures and Public-Key Cryptosystems". 
+                        <em>Communications of the ACM</em>, 21(2), 120-126.
+                    </li>
+                    <li>
+                        <strong>Diffie, W., &amp; Hellman, M. E.</strong> (1976). 
+                        "New Directions in Cryptography". 
+                        <em>IEEE Transactions on Information Theory</em>, 22(6), 644-654.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copy">
+                    &copy; 2026 Eric David Rodriguez Flores — Actividad Formativa 2 · Seguridad Informática (A)
+                </p>
+                <p class="footer-credit">
+                    Material con fines educativos · Imágenes generadas con IA
+                </p>
+                <div class="footer-links">
+                    <a href="#portada" class="footer-link">⬆ Volver arriba</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Volver arriba">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
